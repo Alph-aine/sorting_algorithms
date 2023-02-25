@@ -31,4 +31,7 @@ void quick_sort(int *array, size_t size);
 void swap(int *x, int *y);
 int partition(int *array, int start, int end, int size);
 void quicksort_recursion(int *array, int start, int end, int size);
+void prints(int *arr, char *side, size_t start, size_t end);
+void rec_merge(int *array, int *sortArr, size_t l, size_t r);
+void merge_sort(int *array, size_t size);
 #endif
